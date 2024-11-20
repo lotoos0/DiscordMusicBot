@@ -20,7 +20,7 @@ import requests
 ytdl_format_options = {
     'format': 'bestaudio/best',
     'noplaylist': False,
-    'playlist_items': '1-20',  # Pobierz tylko pierwsze 20 utworów
+    'playlist_items': '1-20',  # Download only the first 20 songs
 }
 ffmpeg_options = {
         'options': '-vn',
